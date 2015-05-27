@@ -1,0 +1,7 @@
+<div class="search">
+  <form action="//www.baidu.com/baidu" target="_blank" method="get" accept-charset="utf-8">
+    <input name="tn" type="hidden" value="baidu">
+    <input type="search" name="word" results="0" placeholder="<%= __('search') %>">
+    <input type="hidden" name="q" value="site:<%- config.url.replace(/^https?:\/\//, '') %>">
+  </form>
+</div>
